@@ -1,5 +1,4 @@
 
----
 
 # D-TECH Terminal Tools
 
@@ -49,9 +48,10 @@ Before running the tool, you need to install the following dependencies.
      apt install exploitdb
      ```
 
-### SSL/TLS Library
-
-`ssl` is part of Python’s standard library, so no installation is required.
+4. **Install any additional tools needed for sublist3r**:
+   ```bash
+   apt install dnsutils
+   ```
 
 ## Usage
 
@@ -68,22 +68,7 @@ Once all dependencies are installed, follow the steps below to run the tool.
    python3 dtech_tool.py
    ```
 
-## Example Usage
-
-Here’s how you can use one of the features:
-
-- To get the IP address of a domain:
-  ```bash
-  Choose a tool to use:
-  [1] Get IP Address of a Domain
-  Enter the domain: example.com
-  ```
 
 ## Contributing
 
-You are welcome to contribute by forking the repository, making changes, and submitting pull requests. If you encounter any issues or have feature requests, please open an issue on the [GitHub repository](https://github.com/Preasx24/D-TECH_terminal_tools/issues).
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
+You are welcome to contribute by forking the repository, making changes, and submitting pull requests. If you encounter any issues or have feature requests, please open an issue on the [GitHub repository](https://github.com
